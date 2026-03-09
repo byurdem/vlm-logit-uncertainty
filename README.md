@@ -71,13 +71,14 @@ data/               dataset information
 
 ## Citation
 
-If you use this work, please cite:
+If you use this repo, please cite:
 
 ```bibtex
 @article{yurdem2026vlmuncertainty,
-title={Logit-Level Uncertainty Quantification in Vision-Language Models for Histopathology Image Analysis},
-author={Yurdem, Betul and Catak, Ferhat Ozgur and Kuzlu, Murat and Gullu, Mehmet Kemal},
-year={2026}
+  title={Logit-Level Uncertainty Quantification in Vision-Language Models for Histopathology Image Analysis},
+  author={Yurdem, Betul and Catak, Ferhat Ozgur and Kuzlu, Murat and Gullu, Mehmet Kemal},
+  journal={arXiv preprint arXiv:2603.03527},
+  year={2026}
 }
 ```
 
