@@ -21,53 +21,26 @@ The framework evaluates uncertainty behavior using:
 - Kullback–Leibler Divergence (KL)
 - Mean Absolute Error (MAE)
 
+## Dataset
+- [ARCH dataset](https://warwick.ac.uk/fac/cross_fac/tia/data/arch/) — PubMed subset
+- 150 images were selected using t-SNE on each model's embeddings followed by a selection procedure (`02_image_selection.ipynb`).
+  The selected image list is in `selected_images.txt`.
+
 ## Evaluated Models
+- [VILA-M3 (Llama3-VILA-M3-8B)](https://huggingface.co/MONAI/Llama3-VILA-M3-8B)
+- [LLaVA-Med v1.5](https://huggingface.co/microsoft/llava-med-v1.5-mistral-7b)
+- [PRISM](https://huggingface.co/paige-ai/Prism) — gated model, access must be requested on Hugging Face
 
-The experiments analyze the behavior of:
+Model weights are not included. Setup instructions are on each model's Hugging Face page.
 
-- **VILA-M3**
-- **LLaVA-Med**
-- **PRISM**
+## Pipeline
+1. `01_tsne_*.ipynb` – t-SNE on each model's image embeddings
+2. `02_image_selection.ipynb` – selection of 150 images
+3. `03_inference_*.ipynb` – running each model on the selected images
+4. `04_metrics.ipynb` – evaluation metrics
 
-under different prompt complexities and temperature values.
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/USERNAME/vlm-logit-uncertainty.git
-cd vlm-logit-uncertainty
-````
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-Run model inference and uncertainty computation:
-
-```bash
-python src/inference.py
-```
-
-Compute uncertainty metrics:
-
-```bash
-python src/compute_metrics.py
-```
-
-## Repository Structure
-
-```
-src/                core implementation
-notebooks/          analysis notebooks
-figures/            plots used in the paper
-data/               dataset information
-```
+## Requirements
+See `requirements.txt`. A GPU is required.
 
 ## Citation
 
