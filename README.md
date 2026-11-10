@@ -6,9 +6,9 @@
 This repository contains the official implementation of the uncertainty quantification framework proposed in our paper:
 
 "Logit-Level Uncertainty Quantification in Vision-Language Models for Histopathology Image Analysis"
-<!--
-📄 Paper: https://arxiv.org/abs/2603.03527
--->
+
+📄 Paper: <!-- https://arxiv.org/abs/2603.03527-->
+
 ## Overview
 
 Vision–Language Models (VLMs) have shown strong performance in multimodal tasks. However, their reliability in medical applications remains a critical concern. This repository provides an uncertainty quantification framework that analyzes temperature-controlled output logits from VLMs.
