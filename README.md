@@ -33,7 +33,7 @@ Model weights are not included. Setup instructions are on each model's Hugging F
 
 
 ## Pipeline
-
+```
            ARCH dataset (PubMed subset, 3,309 images)
                               │
    ┌──────────────────────────┼──────────────────────────┐
@@ -53,7 +53,7 @@ VILA-M3                   LLaVA-Med                    PRISM
    └──────────────────────────┬──────────────────────────┘
                               ▼
         Step 4: metrics and plots (calculate_metrics.ipynb)
-
+```
 Note that the model notebooks are used twice: first for Step 1 (embeddings), then for Step 3 (model runs), with Step 2 in between.
 
 ## Repository contents
