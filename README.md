@@ -7,7 +7,7 @@ This repository contains the official implementation of the uncertainty quantifi
 
 "Logit-Level Uncertainty Quantification in Vision-Language Models for Histopathology Image Analysis"
 
-📄 Paper: <!-- https://arxiv.org/abs/2603.03527-->
+📄 Paper: https://doi.org/10.1016/j.bspc.2026.111798 (https://doi.org/10.1016/j.bspc.2026.111798)<!-- https://arxiv.org/abs/2603.03527-->
 
 ## Overview
 
