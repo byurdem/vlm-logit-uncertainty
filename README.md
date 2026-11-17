@@ -7,7 +7,7 @@ This repository contains the official implementation of the uncertainty quantifi
 
 "Logit-Level Uncertainty Quantification in Vision-Language Models for Histopathology Image Analysis"
 
-📄 Paper: https://doi.org/10.1016/j.bspc.2026.111798 (https://doi.org/10.1016/j.bspc.2026.111798)<!-- https://arxiv.org/abs/2603.03527-->
+📄 Paper: https://doi.org/10.1016/j.bspc.2026.111798 <!-- https://arxiv.org/abs/2603.03527-->
 
 ## Overview
 
@@ -146,11 +146,16 @@ Analysis notebooks (`embedding_space.ipynb`, `calculate_metrics.ipynb`) need onl
 If you use this repo, please cite:
 
 ```bibtex
-@article{yurdem2026vlmuncertainty,
-  title={Logit-Level Uncertainty Quantification in Vision-Language Models for Histopathology Image Analysis},
-  author={Yurdem, Betul and Catak, Ferhat Ozgur and Kuzlu, Murat and Gullu, Mehmet Kemal},
-  journal={arXiv preprint arXiv:2603.03527},
-  year={2026}
+@article{YURDEM2027111798,
+title = {Logit-level uncertainty quantification in Vision-Language Models for histopathology image analysis},
+journal = {Biomedical Signal Processing and Control},
+volume = {131},
+pages = {111798},
+year = {2027},
+issn = {1746-8094},
+doi = {https://doi.org/10.1016/j.bspc.2026.111798},
+url = {https://www.sciencedirect.com/science/article/pii/S1746809426023566},
+author = {Betul Yurdem and Ferhat Ozgur Catak and Murat Kuzlu and Mehmet Kemal Gullu}
 }
 ```
 
